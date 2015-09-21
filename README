@@ -1,0 +1,19 @@
+This project is a Spark (GraphX) implementation of Louvain Modularity.
+
+
+First build Spark:
+
+wget http://www.trieuvan.com/apache/spark/spark-1.5.0/spark-1.5.0.tgz
+
+tar -xvzf spark-1.5.0.tgz -C ~/
+
+cd ~/spark-1.5.0
+
+./sbt/sbt assembly
+
+
+Then build and run the code:
+
+sbt package
+
+sbt run
