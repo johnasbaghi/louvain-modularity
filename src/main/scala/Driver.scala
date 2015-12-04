@@ -36,7 +36,7 @@ object Driver {
     // val sc = new SparkContext(conf)
     // Logger.getRootLogger.setLevel(Level.WARN)
 
-    val sc = new SparkContext("local", "Louvain", "/home/john/spark-1.5.0",
+    val sc = new SparkContext("local", "Louvain", "~/spark-1.5.0",
       List("target/scala-2.11/louvain-modularity_2.11-0.0.1.jar"))
 
     // deleteOutputDir(config)
